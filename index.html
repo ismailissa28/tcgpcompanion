@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCGP Companion - Update</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #add8e6; /* Light blue background */
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            max-width: 600px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            margin: 20px;
+        }
+
+        .title-image {
+            width: 100%;
+            max-width: 400px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 1.8em;
+            color: #0073e6;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.1em;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .highlight {
+            color: #d9534f;
+            font-weight: bold;
+        }
+
+        .email-form {
+            margin-top: 20px;
+        }
+
+        input[type="email"] {
+            padding: 10px;
+            width: 80%;
+            max-width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        button {
+            padding: 10px 15px;
+            font-size: 1em;
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #005bb5;
+        }
+
+        .note {
+            font-size: 0.9em;
+            color: #777;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img class="title-image" src="static/TCGP-Companion-12-18-2024.png" alt="TCGP Companion Title">
+        <h1>We're Working on Something New!</h1>
+        <p>Thank you for using <strong>TCGP Companion</strong>! We're currently developing a <span class="highlight">downloadable standalone app</span> to provide a better experience without memory limits.</p>
+        <p>Here's what we're improving:</p>
+        <ul style="text-align: left; display: inline-block; margin-top: 10px;">
+            <li>✔️ Fixing memory errors for larger collections</li>
+            <li>✔️ Improving scan accuracy</li>
+            <li>✔️ Faster processing times</li>
+            <li>✔️ More reliable results</li>
+        </ul>
+        <p>Stay updated! Enter your email below to get notified when the new version is ready:</p>
+
+        <!-- Email Signup Form (Formspree) -->
+        <form class="email-form" action="https://formspree.io/f/xkggpgno" method="POST">
+            <input type="email" name="email" required placeholder="Enter your email">
+            <br>
+            <button type="submit">Notify Me</button>
+        </form>
+
+        <p class="note">Your email will only be used for updates about TCGP Companion.</p>
+    </div>
+
+</body>
+</html>
